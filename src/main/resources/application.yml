@@ -1,0 +1,10 @@
+server:
+  port: 8042
+# boot 2.3.0
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          - metrics
+          - prometheus
